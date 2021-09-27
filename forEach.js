@@ -1,4 +1,3 @@
-
 var  foods = ['pizza', 'beef', 'bread'];
 
 for(var i = 0; i < foods.length; i ++) {
