@@ -13,4 +13,8 @@ for(var i = 0; i < products.length; i++) {
     }
 }
 
-filteredProducts
+//filteredProducts
+
+products.filter(function(product){
+    return product.type === 'フルーツ';
+});
